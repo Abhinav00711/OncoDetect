@@ -19,12 +19,11 @@ from sklearn.datasets import load_breast_cancer
 import joblib
 
 def main():
-    st.set_page_config(page_title='Breast Cancer Detection', page_icon='tumor_icon.png', layout='wide', initial_sidebar_state='auto')
-    
+    st.set_page_config(page_title='ONCO DETECT', page_icon='tumor_icon.png', layout='wide', initial_sidebar_state='auto')
     col1, col2 = st.columns([2,8])
     col2.title('Breast Cancer Detection')
     col1.image('tumor_icon.png',width=100)
-    st.sidebar.title('Breast Cancer Detection')
+    st.sidebar.title('ONCO DETECT')
     st.markdown('Cancer is Malignant or Benign? ')
     navigation = st.sidebar.radio('VIEW', ('Data Analysis', 'Training', 'Predict'))
 

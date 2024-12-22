@@ -1,4 +1,4 @@
-### Overview of the OncoDetect Application
+### Overview of the Breast Cancer Detection Application
 
 The application is built using Python and Streamlit for an interactive web-based interface. It enables data analysis, training, and prediction for breast cancer diagnosis based on the `sklearn.datasets.load_breast_cancer` dataset. The system offers multiple classification models and visualizations to help users explore and interpret the results.
 
@@ -126,6 +126,8 @@ project_root/
 ---
 
 ### Usage Instructions
+
+The application is also available online for quick access at [https://onc0detect.streamlit.app/](https://onc0detect.streamlit.app/).
 1. **Setup**:
    - Install dependencies from `requirements.txt` using `pip install -r requirements.txt`.
 2. **Run the Application**:
@@ -134,4 +136,3 @@ project_root/
    - Use the sidebar to switch between "Data Analysis," "Training," and "Predict" sections.
 4. **Save Models**:
    - Train a model and save it for future predictions.
-
